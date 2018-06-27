@@ -4,6 +4,7 @@ import com.clover.framework.RestAssuredConfiguration;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.http.ContentType;
+import io.restassured.http.Cookie;
 import io.restassured.http.Header;
 import io.restassured.http.Headers;
 import io.restassured.path.json.JsonPath;
@@ -13,10 +14,8 @@ import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-
 import java.util.List;
-
-import static io.restassured.RestAssured.get;
+import java.util.Map;
 import static io.restassured.RestAssured.given;
 import static io.restassured.RestAssured.when;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
@@ -521,9 +520,54 @@ public class Payments {
         System.out.println(idList);
         System.out.println(idList.size());
 
+    }
+
+    @Test
+    public void cookiesTest(){
+
+
+        Response response =
+
+                given().
+                       // auth().
+                       // oauth2("59f40dae-90ca-c336-95f0-492527e1ff77").
+                      //  log().all().
+                     //   when().
+                        get("http://jsonplaceholder.typicode.com/photos/1");
+
+        Map<String, String> cookies = response.getCookies();
+
+        for ( Map.Entry<String, String>  entry : cookies.entrySet()){
+
+            System.out.println((entry.getKey()+":"+entry.getValue()));
+        }
 
 
     }
 
+
+    @Test
+    public void cookiesDetail(){
+
+        Response response =
+
+                given().
+                        // auth().
+                        // oauth2("59f40dae-90ca-c336-95f0-492527e1ff77").
+                        //  log().all().
+                        //   when().
+                                get("http://jsonplaceholder.typicode.com/photos/1");
+
+     Cookie a = response.getDetailedCookie("__cfduid");
+
+        System.out.println("Has Expired:"+a.hasExpiryDate());
+        System.out.println("Expired Date:"+a.getExpiryDate());
+        System.out.println("Has Value:"+a.hasValue());
+        System.out.println("Path:"+a.getPath());
+        System.out.println("Is Secure:"+a.isSecured());
+
+
+
+    }
 
 }

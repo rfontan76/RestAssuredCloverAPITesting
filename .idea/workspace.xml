@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af3c7c38-3cd8-49ba-a9f0-1bccfa2fb4d8" name="Default" comment="" />
+    <list default="true" id="af3c7c38-3cd8-49ba-a9f0-1bccfa2fb4d8" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/clover/test/test/Payments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/clover/test/test/Payments.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +30,8 @@
       <file leaf-file-name="Payments.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/clover/test/test/Payments.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+            <state relative-caret-position="738">
+              <caret line="566" column="55" lean-forward="true" selection-start-line="566" selection-start-column="55" selection-end-line="566" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,7 +42,7 @@
       <file leaf-file-name="Header.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.1.0/rest-assured-3.1.0.jar!/io/restassured/http/Header.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state>
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
@@ -47,7 +51,7 @@
       <file leaf-file-name="schema.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/schema.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state>
               <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
             </state>
           </provider>
@@ -56,7 +60,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
+            <state>
               <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
             </state>
           </provider>
@@ -65,7 +69,7 @@
       <file leaf-file-name="RestAssuredConfiguration.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/clover/framework/RestAssuredConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state>
               <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -77,7 +81,7 @@
       <file leaf-file-name="EndPoint.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/clover/test/common/EndPoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state>
               <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="85" />
             </state>
           </provider>
@@ -92,6 +96,9 @@
         <option value="Interface" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GroovyConsoleState">
     <option name="list">
@@ -137,6 +144,7 @@
     <option name="width" value="1200" />
     <option name="height" value="1849" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -173,7 +181,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -198,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.">
+  <component name="RunManager" selected="TestNG.Payments.cookiesDetail">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -250,7 +258,7 @@
         <option name="Make" enabled="false" />
       </method>
     </configuration>
-    <configuration name="Payments.greaterThanInline" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Payments.cookiesDetail" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredCloverAPITesting" />
       <extension name="coverage">
         <pattern>
@@ -263,7 +271,36 @@
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="com.clover.test.test" />
       <option name="MAIN_CLASS_NAME" value="com.clover.test.test.Payments" />
-      <option name="METHOD_NAME" value="greaterThanInline" />
+      <option name="METHOD_NAME" value="cookiesDetail" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Payments.cookiesTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredCloverAPITesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.clover.test.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.clover.test.test" />
+      <option name="MAIN_CLASS_NAME" value="com.clover.test.test.Payments" />
+      <option name="METHOD_NAME" value="cookiesTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -351,35 +388,6 @@
       <option name="PACKAGE_NAME" value="com.clover.test.test" />
       <option name="MAIN_CLASS_NAME" value="com.clover.test.test.Payments" />
       <option name="METHOD_NAME" value="responseHeadersTest" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="Payments.testGetResponseAsList" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredCloverAPITesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.clover.test.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com.clover.test.test" />
-      <option name="MAIN_CLASS_NAME" value="com.clover.test.test.Payments" />
-      <option name="METHOD_NAME" value="testGetResponseAsList" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -486,19 +494,19 @@
       <item itemvalue="TestNG.com.clover.test.test" />
       <item itemvalue="TestNG.Unnamed" />
       <item itemvalue="TestNG." />
-      <item itemvalue="TestNG.Payments.greaterThanInline" />
-      <item itemvalue="TestNG.Payments.testGetResponseAsList" />
       <item itemvalue="TestNG.Payments.it" />
       <item itemvalue="TestNG.Payments.responseHeadersTest" />
       <item itemvalue="TestNG.Payments.jsonPathTest" />
+      <item itemvalue="TestNG.Payments.cookiesTest" />
+      <item itemvalue="TestNG.Payments.cookiesDetail" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Payments.cookiesDetail" />
+        <item itemvalue="TestNG.Payments.cookiesTest" />
         <item itemvalue="TestNG.Payments.responseHeadersTest" />
         <item itemvalue="TestNG.Payments.jsonPathTest" />
         <item itemvalue="TestNG.Payments.it" />
-        <item itemvalue="TestNG.Payments.testGetResponseAsList" />
-        <item itemvalue="TestNG.Payments.greaterThanInline" />
       </list>
     </recent_temporary>
   </component>
@@ -516,21 +524,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Payments_responseHeadersTest - 2018.06.26 at 17h 56m 40s.xml">
-      <configuration name="Payments.responseHeadersTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Payments_jsonPathTest - 2018.06.27 at 10h 28m 57s.xml">
-      <configuration name="Payments.jsonPathTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Payments_jsonPathTest - 2018.06.27 at 10h 29m 56s.xml">
-      <configuration name="Payments.jsonPathTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Payments_jsonPathTest - 2018.06.27 at 10h 33m 06s.xml">
-      <configuration name="Payments.jsonPathTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Payments_responseHeadersTest - 2018.06.27 at 10h 38m 53s.xml">
-      <configuration name="Payments.responseHeadersTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Payments_responseHeadersTest - 2018.06.27 at 10h 47m 03s.xml">
       <configuration name="Payments.responseHeadersTest" configurationId="TestNG" />
     </history-entry>
@@ -545,6 +538,21 @@
     </history-entry>
     <history-entry file=" - 2018.06.27 at 10h 50m 45s.xml">
       <configuration name="" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Payments_cookiesTest - 2018.06.27 at 12h 18m 07s.xml">
+      <configuration name="Payments.cookiesTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Payments_cookiesTest - 2018.06.27 at 12h 28m 01s.xml">
+      <configuration name="Payments.cookiesTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file=" - 2018.06.27 at 13h 35m 32s.xml">
+      <configuration name="" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Payments_cookiesDetail - 2018.06.27 at 14h 10m 44s.xml">
+      <configuration name="Payments.cookiesDetail" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Payments_cookiesDetail - 2018.06.27 at 14h 13m 32s.xml">
+      <configuration name="Payments.cookiesDetail" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -562,17 +570,18 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49972957" weight="0.3299595" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.26338562" weight="0.37442923" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.4245538" side_tool="true" weight="0.32489878" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5754462" weight="0.43020594" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5754462" visible="true" weight="0.42979452" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49918875" weight="0.32894737" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.71587926" visible="true" weight="0.29533678" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.71587926" weight="0.29533678" />
       <window_info id="Structure" order="1" sideWeight="0.50101215" side_tool="true" weight="0.24956822" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -585,7 +594,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295393" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.26338562" weight="0.37471396" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -885,21 +893,21 @@
     <entry file="file://$PROJECT_DIR$/target/test-classes/com/clover/test/Payments.class" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
+        <state>
           <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/clover/test/common/EndPoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state>
           <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="85" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/clover/framework/RestAssuredConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state>
           <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -915,7 +923,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources/schema.json" />
     <entry file="file://$PROJECT_DIR$/src/test/java/schema.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state>
           <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
         </state>
       </provider>
@@ -929,15 +937,26 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.1.0/rest-assured-3.1.0.jar!/io/restassured/http/Header.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state>
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.1.0/rest-assured-3.1.0.jar!/io/restassured/http/Cookie.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+          <folding>
+            <element signature="e#1927#1928#0" expanded="true" />
+            <element signature="e#1968#1969#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/clover/test/test/Payments.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+        <state relative-caret-position="738">
+          <caret line="566" column="55" lean-forward="true" selection-start-line="566" selection-start-column="55" selection-end-line="566" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
