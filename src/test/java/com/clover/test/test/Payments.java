@@ -16,6 +16,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.TimeUnit;
 import static io.restassured.RestAssured.given;
 import static io.restassured.RestAssured.when;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
@@ -151,19 +152,23 @@ public class Payments {
     @Test
     public void createAnOrder() {
 
+        //Setting Token
         String accessToken = "59f40dae-90ca-c336-95f0-492527e1ff77";
 
+        //Setting request
         RequestSpecification request = new RestAssuredConfiguration().getRequestSpecification()
                 .filter(new RequestLoggingFilter())
                 .filter(new ResponseLoggingFilter());
-
+        //Starting to build request with preemptive and with token
         given().
                 auth().preemptive().
-                oauth2(accessToken);
+                oauth2(accessToken).log().all();
 
-
+        //Generate body request
         JSONObject requestParams = new JSONObject();
         requestParams.put("state", "open");
+
+        //Generate request
         request.body(requestParams.toString());
 
     }
@@ -567,6 +572,35 @@ public class Payments {
         System.out.println("Is Secure:"+a.isSecured());
 
 
+
+    }
+
+    @Test
+    public void setCookie(){
+
+        given().
+                cookie("__utmt","1", "2").log().all().
+        when().
+                get("http://www.webservicex.com/globalweather.asmx?op=GetCitiesByCountry").
+        then().
+                statusCode(404);
+
+
+    }
+
+    @Test
+    public void testResponseTime(){
+
+        long t  = given().
+                auth().
+                oauth2("59f40dae-90ca-c336-95f0-492527e1ff77").
+                log().all().
+                when().
+                get("https://apidev7.dev.clover.com:443/v3/merchants/GQS1H99GXGSHW/payments").timeIn(TimeUnit.SECONDS);
+
+        System.out.println("Time:" + t);
+
+        Assert.assertTrue(t < 3);
 
     }
 
